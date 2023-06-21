@@ -1,0 +1,483 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html
+{
+    width: 100%;
+}
+#header-right-icon
+{
+    aspect-ratio: 3;
+    object-fit: contain;
+    height: 10%;
+
+}
+.header-text
+{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-top: 37px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-text a
+{
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    color: #2a7fd4;
+}
+
+.nav-list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.search
+{
+    padding-left: 10px;
+    height: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+.logo
+{
+    height: 15px;
+}
+.bag
+{
+    height: 10px;
+    padding-left: 2vw;
+    display: inline-flex;
+    justify-content: center;
+}
+.nav-list
+{
+    padding: 0vw 2.5vw;
+}
+.nav-list li
+{
+    font-size: 13px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.nav-list li a
+{
+    text-decoration: none;
+    color: #E8E8ED;
+    height: 37px;
+    width: 70px;
+    
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #434345;
+    background-color: #FBFBFD;
+    background-color: #161617;
+    background-color: #434345;
+    width: 100vw;
+    /* overflow: hidden; */
+    /* position: fixed !important; */
+    position: fixed !important;
+    top: 0;
+    height: 37px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.iphone14
+{
+    position: relative;
+    /* display: flex; */
+}
+#clip
+{
+    /* position:absolute;
+    clip: rect(0,1000,0,2000); */
+    /* width : 100px; */
+} 
+.iphone14 img
+{
+    /* position: relative; */
+    width: 100vw;
+    height: 100vh;
+    /* object-fit: cover; */
+    object-fit: cover;
+    object-position: bottom;
+    /* object-position: 50% 55%; */
+}
+#iphone14-text1
+{
+    font-size: 54px;
+    font-weight: 640;
+    margin-top: 35px;
+
+}
+.iphone14-text
+{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+    top: 0px;
+}
+#iphone14-text2
+{
+    font-size: 26px;
+    font-weight: 450;
+}
+.iphone14-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.iphone14-buttons a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2a7fd4;
+    font-weight: 500;
+}
+.bi
+{
+    color: #2a7fd4;
+}
+.hover-underline-effect:hover
+{
+    text-decoration: underline;
+}
+.buy-button-iphone14
+{
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+.iphone14-2
+{
+    position: relative;
+    height: 99vh;
+}
+.iphone14-2 img
+{
+    width: 100%;
+    height: 725px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.iphone14-2-text
+{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: black;
+}
+#iphone14-2-text1
+{
+    font-size: 54px;
+    font-weight: 640;
+    margin-top: 35px;
+
+}
+#iphone14-2-text2
+{
+    font-size: 26px;
+    font-weight: 450;
+}
+.iphone14-2-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.iphone14-2-buttons a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2a7fd4;
+    font-weight: 500;
+}
+.buy-button-iphone14-2
+{
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+.watch
+{
+    position: relative;
+    height: 99vh;
+}
+.watch img
+{
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+    object-position:  50% 90%;
+    /* object-position: center; */
+    /* -o-object-position: center; */
+}
+.watch-text
+{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+}
+.watch-text11
+{
+    margin-top: 35px;
+    display: flex;
+}
+#watch-apple-white
+{
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+}
+#watch-text1
+{
+    font-size: 43px;
+    font-weight: 670;
+}
+#watch-text1-1
+{
+    font-stretch: ultra-expanded;
+    color: #bb1d23;
+    font-size: 20px;
+    font-weight: 600;
+}
+#watch-text2
+{
+    font-size: 26px;
+    font-weight: 450;
+}
+.watch-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.watch-buttons a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2a7fd4;
+    font-weight: 500;
+}
+.buy-button-watch
+{
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+.wwdc23-ipad
+{
+    display: flex;
+}
+.wwdc23
+{
+    position: relative;
+    width: 50vw;
+    background-color: white;
+    padding: 1vw;
+    /* display: flex; */
+}
+.wwdc23 img
+{
+    /* margin: 10px; */
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+#wwdc23-apple-white
+{
+    width: 55px;
+    height: 55px;
+    margin-top: 7px;
+}
+#wwdc23-text1
+{
+    font-size: 54px;
+    font-weight: 640;
+    /* margin-top: 35px; */
+
+}
+.wwdc23-text
+{
+    display: flex;
+    width: 96%;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+    top: 0px;
+}
+.wwdc23-text11
+{
+    display: flex;
+    margin-top: 400px;
+}
+#wwdc23-text2
+{
+    font-size: 26px;
+    font-weight: 450;
+}
+.wwdc23-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.wwdc23-buttons a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2a7fd4;
+    font-weight: 500;
+}
+.ipad
+{
+    position: relative;
+    width: 50vw;
+    background-color: white;
+    padding: 1vw;
+    /* display: flex; */
+}
+.ipad img
+{
+    /* margin: 10px; */
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+#ipad-text1
+{
+    font-size: 54px;
+    font-weight: 640;
+    /* margin-top: 35px; */
+
+}
+.ipad-text
+{
+    display: flex;
+    width: 96%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    color: black;
+    top: 0px;
+}
+.ipad-text11
+{
+    display: flex;
+    margin-top: 43px;
+}
+#ipad-text2
+{
+    font-size: 26px;
+    font-weight: 450;
+}
+.ipad-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.ipad-buttons a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2a7fd4;
+    font-weight: 500;
+}
+.buy-button-ipad
+{
+    margin-left: 20px;
+    /* margin-right: 20px; */
+}
+.mpro-watchb
+{
+    display: flex;
+}
+.mpro
+{
+    position: relative;
+    width: 50vw;
+    background-color: white;
+    padding: 1vw;
+    /* display: flex; */
+}
+.mpro img
+{
+    /* margin: 10px; */
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+#mpro-apple-white
+{
+    width: 55px;
+    height: 55px;
+    margin-top: 7px;
+}
+#mpro-text1
+{
+    font-size: 54px;
+    font-weight: 640;
+    /* margin-top: 35px; */
+
+}
+.mpro-text
+{
+    display: flex;
+    width: 96%;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+    top: 0px;
+}
+.mpro-text11
+{
+    display: flex;
+    margin-top: 400px;
+}
+#mpro-text2
+{
+    font-size: 26px;
+    font-weight: 450;
+}
+.mpro-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.mpro-buttons a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2a7fd4;
+    font-weight: 500;
+}
